@@ -1,12 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfólio Mateus Evangelista</title>
+    <!--Project's CSS file-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <!--devicon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/8a63d92c7f.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <h1>Mateus</h1>
+    <header id="header">
+        <img src="imgs/foto-principal.jpg" width="60px">
+        <nav id="nav-bar">
+            <ul id="nav-ul">
+                <a href="">
+                    <li>Sobre</li>
+                </a>
+                <a href="">
+                    <li>Habilidades</li>
+                </a>
+                <a href="">
+                    <li>Cursos</li>
+                </a>
+                <a href="">
+                    <li>Contato</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main id="main">
+        <section id="intro">
+            <h2 id="welcome-h2">Seja bem-vindo(a) ao meu portfólio!</h2>
+            <p id="p-intro">Aqui, você pode ver meus projetos e entrar em contato comigo.</p>
+        </section>
+        <section id="about-me">
+            <h2 class="main-h2">Sobre mim</h2>
+            <div id="about-me-div">
+                <img src="imgs/foto-principal.jpg" alt="Mateus Evangelista de Alcântara - foto foto-principal"
+                    width="250px">
+                <div class="section-text">
+                    <p class="about-me-text">Estou no <span id="college-semester"></span> período do bacharelado em
+                        Sistemas
+                        de Informação da Universidade Federal do Estado do Rio de Janeiro. Tenho interesse em <span
+                            class="highlight">estatística, web scraping, web development e análise de dados.</span></p>
+                    <p class="about-me-text">Atualmente, <span class="highlight">busco um estágio</span> que envolva
+                        qualquer uma das áreas mencionadas. Sou curioso, diligente e tenho muita vontade de trabalhar.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section classs="skills-certificates">
+            <h2 class="main-h2">Minhas habilidades</h2>
+            <div class="skills-certificates-div">
+                <div class="div-skills-certificates skills-only">
+                    <p class="skills-title">Front-end</p>
+                    <div class="icons-div">
+                        <i class="devicon-html5-plain colored"></i>
+                        <i class="devicon-css3-plain colored"></i>
+                    </div>
+                </div>
+                <div class="div-skills-certificates skills-only">
+                    <p class="skills-title">Linguagens</p>
+                    <div class="icons-div">
+                        <i class="devicon-python-plain colored"></i>
+                        <i class="devicon-c-plain colored"></i>
+                        <i class="devicon-rstudio-plain colored"></i>
+                    </div>
+                </div>
+                <div class="div-skills-certificates skills-only">
+                    <p class="skills-title">Ferramentas</p>
+                    <div class="icons-div">
+                        <i class="devicon-linux-plain colored"></i>
+                        <i class="devicon-git-plain colored"></i>
+                        <i class="fa-regular fa-file-excel"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="skills-certificates">
+            <h2 class="main-h2">Meus cursos e certificados</h2>
+            <div class="outer-skills-container">
+                <div class="skills-certificates-div">
+                    <div class="div-skills-certificates certificate-only">
+                        <p class="skills-title">Git e GitHub - Hora de Codar</p>
+                        <p class="certificate-link"><a href="">Certificado</a></p>
+                    </div>
+                    <div class="div-skills-certificates certificate-only">
+                        <p class="skills-title">Python - Geek University</p>
+                        <p class="certificate-link"><a href="">Certificado</a></p>
+                    </div>
+                </div>
+                <div class="skills-certificates-div">
+                    <div class="div-skills-certificates certificate-only">
+                        <p class="skills-title">Excel - João Paulo de Lira</p>
+                        <p class="certificate-link"><a href="">Certificado</a></p>
+                    </div>
+                    <div class="div-skills-certificates certificate-only">
+                        <p class="skills-title">Carreira Front-end - Vai na Web</p>
+                        <p class="certificate-link"><span class="italic">Em andamento</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>

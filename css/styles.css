@@ -1,0 +1,170 @@
+/*Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+
+/*Global configurations*/
+.italic {
+    font-style: italic;
+}
+
+i {
+    font-size: 6vh;
+}
+
+.highlight {
+    color: var(--text-highlight);
+}
+
+/*Variables*/
+:root {
+    --main-bg-color: rgb(246, 246, 246);
+    --text-highlight: rgb(56, 0, 168);
+    --ul-bg-color: rgb(156, 156, 156);
+    --p-margin-color: rgb(69, 69, 69);
+}
+
+/*Page itself*/
+
+body {
+    background-color: var(--main-bg-color);
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    width: 80%;
+    max-width: 1200px;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 0 0;
+}
+
+#nav-ul a {
+    margin: 0 10px 0 10px;
+    padding: 10px;
+    background-color: var(--ul-bg-color);
+    border-radius: 5px;
+    border: none;
+}
+
+#nav-ul li,
+#nav-ul {
+    display: inline;
+    list-style-type: none;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    align-self: center;
+    max-width: 1200px;
+    gap: 30px;
+    margin: 20px 0 20px 0;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#welcome-h2 {
+    font-size: 6vh;
+}
+
+#p-intro {
+    font-size: 3vh;
+}
+
+.main-h2 {
+    font-size: 5vh;
+}
+
+#about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#about-me-div {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+#about-me-div img {
+    border-radius: 50%;
+}
+
+.about-me-text {
+    font-size: 2.5vh;
+}
+
+.section-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.skills-certificates {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.skills-certificates-div {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 10px;
+}
+
+.div-skills-certificates {
+    padding: 15px 30px 15px 30px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.skills-only {
+    width: 200px;
+}
+
+.certificate-only {
+    width: 400px;
+}
+
+.skills-title {
+    font-size: 3vh;
+    border-left: 4px solid var(--p-margin-color);
+    padding: 0 0 0 5px;
+}
+
+.icons-div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.outer-skills-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.certificate-link {
+    font-size: 2.5vh;
+}
