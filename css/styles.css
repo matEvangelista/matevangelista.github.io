@@ -38,10 +38,11 @@ i {
 body {
     display: flex;
     flex-direction: column;
+    background-color: #24292f;
 }
 
 #header {
-    width: 80%;
+    width: 75%;
     max-width: 1200px;
     align-self: center;
     display: flex;
