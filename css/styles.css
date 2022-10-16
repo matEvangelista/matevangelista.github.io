@@ -36,7 +36,6 @@ i {
 /*Page itself*/
 
 body {
-    background-color: var(--main-bg-color);
     display: flex;
     flex-direction: column;
 }
@@ -48,7 +47,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px 0 0 0;
+    padding: 15px 2.5% 15px 2.5%;
+    background-color: var(--main-bg-color);
+
 }
 
 #nav-ul a {
@@ -72,13 +73,16 @@ body {
     align-self: center;
     max-width: 1200px;
     gap: 30px;
-    margin: 20px 0 20px 0;
+    margin: 0px 0 20px 0;
+    background-color: var(--main-bg-color);
+    padding: 20px 2.5% 0 2.5%;
 }
 
 #intro {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
 }
 
 #welcome-h2 {
@@ -97,6 +101,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 20px;
 }
 
 #about-me-div {
@@ -130,6 +135,7 @@ body {
     justify-content: space-around;
     width: 100%;
     gap: 10px;
+    margin-top: 20px;
 }
 
 .div-skills-certificates {
@@ -167,4 +173,27 @@ body {
 
 .certificate-link {
     font-size: 2.5vh;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+/*#24292f;*/
+
+#project-link {
+    align-self: center;
+    background-color: #24292f;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#project-link h2 {
+    color: white;
+}
+
+.form {
+
 }

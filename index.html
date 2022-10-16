@@ -20,20 +20,23 @@
 
 <body>
     <header id="header">
-        <img src="imgs/foto-principal.jpg" width="60px">
+        <img src="imgs/logo.png" height="30px">
         <nav id="nav-bar">
             <ul id="nav-ul">
-                <a href="">
+                <a href="#about-me">
                     <li>Sobre</li>
                 </a>
-                <a href="">
+                <a href="#skills-id">
                     <li>Habilidades</li>
                 </a>
-                <a href="">
+                <a href="#certificates">
                     <li>Cursos</li>
                 </a>
                 <a href="">
                     <li>Contato</li>
+                </a>
+                <a href="https://github.com/matEvangelista" target="_blank">
+                    <li>Projetos</li>
                 </a>
             </ul>
         </nav>
@@ -59,7 +62,7 @@
                 </div>
             </div>
         </section>
-        <section classs="skills-certificates">
+        <section classs="skills-certificates" id="skills-id">
             <h2 class="main-h2">Minhas habilidades</h2>
             <div class="skills-certificates-div">
                 <div class="div-skills-certificates skills-only">
@@ -87,7 +90,7 @@
                 </div>
             </div>
         </section>
-        <section class="skills-certificates">
+        <section class="skills-certificates" id="certificates">
             <h2 class="main-h2">Meus cursos e certificados</h2>
             <div class="outer-skills-container">
                 <div class="skills-certificates-div">
@@ -111,6 +114,20 @@
                     </div>
                 </div>
             </div>
+        </section>
+        <section class="projects">
+            <div id="project-link">
+                <a href="https://github.com/matEvangelista" target="_blank" style="text-align: center">
+                    <h2 class="main-h2"><i class="devicon-github-original"></i> Ver projetos</h2>
+                </a>
+            </div>
+        </section>
+        <section class="form">
+            <form action="https://formsubmit.co/mateus.evangelista.alcantara@gmail.com" method="POST">
+                <input type="text" name="name" required>
+                <input type="email" name="email" required>
+                <button type="submit">Send</button>
+            </form>
         </section>
     </main>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
