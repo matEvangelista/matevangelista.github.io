@@ -27,7 +27,7 @@ i {
 
 /*Variables*/
 :root {
-    --main-bg-color: rgb(246, 246, 246);
+    --main-bg-color: rgb(201, 201, 201);
     --text-highlight: rgb(56, 0, 168);
     --ul-bg-color: rgb(156, 156, 156);
     --p-margin-color: rgb(69, 69, 69);
@@ -41,6 +41,10 @@ body {
     background-color: #24292f;
 }
 
+body > * {
+    padding: 15px 2.5% 15px 2.5%;
+}
+
 #header {
     width: 75%;
     max-width: 1200px;
@@ -48,23 +52,24 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 2.5% 15px 2.5%;
     background-color: var(--main-bg-color);
 
 }
 
-#nav-ul a {
-    margin: 0 10px 0 10px;
-    padding: 10px;
-    background-color: var(--ul-bg-color);
-    border-radius: 5px;
-    border: none;
+#nav-bar ul {
+    list-style-type: none;
+    padding-left: 0px;
 }
 
-#nav-ul li,
-#nav-ul {
-    display: inline;
-    list-style-type: none;
+#nav-bar li {
+    display: inline-block;
+    margin: 10px;
+}
+
+#nav-bar a {
+    background-color: var(--ul-bg-color);
+    padding: 10px;
+    border-radius: 5px;
 }
 
 #main {
@@ -74,9 +79,8 @@ body {
     align-self: center;
     max-width: 1200px;
     gap: 30px;
-    margin: 0px 0 20px 0;
+    margin: 0;
     background-color: var(--main-bg-color);
-    padding: 20px 2.5% 0 2.5%;
 }
 
 #intro {
@@ -96,13 +100,15 @@ body {
 
 .main-h2 {
     font-size: 5vh;
+    border-bottom: 3px solid #24292f;
+    width: fit-content;
+    margin: 10px 0 30px 0;
 }
 
 #about-me {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 20px;
 }
 
 #about-me-div {
@@ -136,7 +142,6 @@ body {
     justify-content: space-around;
     width: 100%;
     gap: 10px;
-    margin-top: 20px;
 }
 
 .div-skills-certificates {
@@ -165,7 +170,7 @@ body {
     margin-top: 15px;
 }
 
-.outer-skills-container{
+.outer-skills-container {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -182,19 +187,96 @@ body {
     width: 100%;
     align-items: center;
 }
-/*#24292f;*/
 
 #project-link {
     align-self: center;
     background-color: #24292f;
     padding: 15px;
     border-radius: 10px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #project-link h2 {
     color: white;
+    margin: 0;
+}
+
+#project-icon {
+    color: white;
+}
+
+#project-link a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.form>form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 60%;
+    min-width: 500px;
+    border-radius: 10px;
+    font-size: 2.5vh;
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    border: 1px solid black;
+    font-size: 2.5vh;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+textarea {
+    margin: 10px;
+}
+
+.input {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+}
+
+.form>h2 {
+    align-self: flex-start;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 70%;
+}
+
+input[type="submit"] {
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    background-color: var(--main-bg-color);
+    font-size: 2.5vh;
+    align-self: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+input[type="submit"]:active {
+    cursor: pointer;
+    background-color: #24292f;
+    color: white;
 }
