@@ -49,8 +49,8 @@ body>* {
 }
 
 #header {
-    width: 75%;
-    max-width: 1300px;
+    width: 90%;
+    max-width: 1100px;
     align-self: center;
     display: flex;
     justify-content: space-between;
@@ -83,9 +83,9 @@ body>* {
 #main {
     display: flex;
     flex-direction: column;
-    width: 75%;
+    width: 90%;
     align-self: center;
-    max-width: 1300px;
+    max-width: 1100px;
     gap: 30px;
     margin: 0;
     background-color: var(--main-bg-color);
@@ -137,7 +137,8 @@ body>* {
 .section-text {
     display: flex;
     flex-direction: column;
-    gap: 10px
+    gap: 10px;
+    min-width: 400px;
 }
 
 .skills-certificates {
@@ -204,15 +205,16 @@ body>* {
     background-color: #24292f;
     padding: 15px;
     border-radius: 10px;
-    width: 300px;
+    width:fit-content;
+    max-width: 300px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    gap: 20px;
 }
 
 #project-link h2,
 #project-icon {
-
     margin: 0;
     border: none;
 }
@@ -240,11 +242,11 @@ body>* {
     display: flex;
     flex-direction: column;
     background-color: white;
-    width: 60%;
-    min-width: 400px;
+    width: 90%;
     border-radius: 10px;
     font-size: 2.5vh;
     padding: 10px;
+    max-width: 800px;
 }
 
 input[type="text"],
@@ -320,4 +322,12 @@ input[type="submit"]:active {
     .section-text{
         min-width: 300px;
     }
+}
+
+@media screen and (max-width: 800px) {
+    #about-me-div {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px
+    }   
 }
