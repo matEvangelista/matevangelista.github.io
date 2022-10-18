@@ -20,7 +20,12 @@
 
 <body>
     <header id="header">
-        <img src="imgs/logo.png" height="30px">
+        <div class="burger-container">
+            <img src="imgs/logo.png" height="30px">
+            <div class="menu-btn">
+                <div class="menu-btn__burger"></div>
+            </div>
+        </div>
         <nav id="nav-bar">
             <ul id="nav-ul">
                 <li>
@@ -139,6 +144,29 @@
     </main>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        function clickable() {
+            if (menuOpen) {
+                menuBtn.classList.remove('open');
+                menuBtn.classList.remove('open');
+                menuOpen = false;
+            }
+            else {
+                menuBtn.classList.add('open');
+                menuOpen = true;
+            }
+        }
+
+        function removeClicavel() {
+            if (screen.width > 700) {
+                menuOpen = false;
+            }
+        }
+
+        const menuBtn = document.querySelector('.menu-btn');
+        let menuOpen = false;
+        menuBtn.addEventListener('click', clickable);
+    </script>
 </body>
 
 </html>
