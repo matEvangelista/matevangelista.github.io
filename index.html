@@ -28,17 +28,19 @@
         </div>
         <nav id="nav-bar">
             <ul id="nav-ul">
-                <li>
+                <li class="list">
                     <a href="#about-me">Sobre</a>
                 </li>
-                <li><a href="#skills-id">Habilidades</a></li>
+                <li class="list">
+                    <a href="#skills-id">Habilidades</a>
+                </li>
                 <li>
                     <a href="#certificates">Cursos</a>
                 </li>
-                <li>
+                <li class="list">
                     <a href="#contato">Contato</a>
                 </li>
-                <li>
+                <li class="list">
                     <a href="https://github.com/matEvangelista" target="_blank">Projetos</a>
                 </li>
             </ul>
@@ -126,7 +128,8 @@
         </section>
         <section class="form" id="contato">
             <h2 class="main-h2">Entre em contato comigo</h2>
-            <form id="contactform" action="https://formsubmit.io/send/mateus.evangelista.alcantara@gmail.com" method="POST">
+            <form id="contactform" action="https://formsubmit.io/send/mateus.evangelista.alcantara@gmail.com"
+                method="POST">
                 <div class="input">
                     <label for="name">Digite seu nome:</label><input name="name" type="text" id="name"
                         placeholder="Remetente" required>
@@ -150,22 +153,33 @@
                 menuBtn.classList.remove('open');
                 menuBtn.classList.remove('open');
                 menuOpen = false;
+                document.getElementById("nav-ul").style.display = "none";
             }
             else {
                 menuBtn.classList.add('open');
                 menuOpen = true;
+                document.getElementById("nav-ul").style.display = "flex";
             }
         }
 
-        function removeClicavel() {
+        function removeClickable() {
             if (screen.width > 700) {
                 menuOpen = false;
             }
         }
 
+        function closesMenu() {
+            document.getElementById("nav-ul").style.display = "none";
+        }
+
+        const listOptions = document.querySelectorAll("li");
         const menuBtn = document.querySelector('.menu-btn');
         let menuOpen = false;
         menuBtn.addEventListener('click', clickable);
+        //listOptions.addEventListener('click', () => { closesMenu(); clickable() });
+        for (let i = 0; i < listOptions.length; i++) {
+            listOptions[i].addEventListener("click", () => { closesMenu(); clickable() });
+        }
     </script>
 </body>
 
