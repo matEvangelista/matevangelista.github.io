@@ -176,7 +176,6 @@
         const menuBtn = document.querySelector('.menu-btn');
         let menuOpen = false;
         menuBtn.addEventListener('click', clickable);
-        //listOptions.addEventListener('click', () => { closesMenu(); clickable() });
         for (let i = 0; i < listOptions.length; i++) {
             listOptions[i].addEventListener("click", () => { closesMenu(); clickable() });
         }
