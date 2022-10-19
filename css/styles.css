@@ -6,6 +6,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    font-size: calc(15px + 0.390625vw);
+}
+
 a:link,
 a:visited,
 a:active {
@@ -20,7 +24,7 @@ a:active {
 }
 
 i {
-    font-size: 6vh;
+    font-size: 2.5rem;
 }
 
 .highlight {
@@ -31,8 +35,9 @@ i {
 :root {
     --main-bg-color: rgb(201, 201, 201);
     --text-highlight: rgb(56, 0, 168);
-    --ul-bg-color: rgb(156, 156, 156);
+    --ul-bg-color: rgb(131, 131, 131);
     --p-margin-color: rgb(69, 69, 69);
+    --nav-bg-color: rgb(170, 170, 170);
     --general-color: #24292f;
 }
 
@@ -59,7 +64,13 @@ body>* {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--main-bg-color);
+    background-color: var(--nav-bg-color);
+    position: fixed;
+    box-shadow: 0 1px 1px var(--general-color);
+}
+
+.burger-container {
+    align-self: flex-end;
 }
 
 #nav-bar ul {
@@ -69,15 +80,15 @@ body>* {
 
 #nav-bar li {
     display: inline-block;
-    margin: 10px;
+    margin: 10px 0px;
 }
 
 #nav-bar a {
     background-color: var(--ul-bg-color);
     padding: 10px;
-    border-radius: 5px;
     transition: 0.5s;
-    font-size: 2vh;
+    font-size: calc(13px + 0.390625vw);
+    border-radius: 10px;
 }
 
 #nav-bar a:hover {
@@ -94,6 +105,7 @@ body>* {
     gap: 30px;
     margin: 0;
     background-color: var(--main-bg-color);
+    margin-top: 3.8rem;
 }
 
 #intro {
@@ -105,15 +117,15 @@ body>* {
 }
 
 #welcome-h2 {
-    font-size: 6vh;
+    font-size: 2.1rem;
 }
 
 #p-intro {
-    font-size: 3vh;
+    font-size: calc(17px + 0.390625vw);
 }
 
 .main-h2 {
-    font-size: 5vh;
+    font-size: 1.8rem;
     border-bottom: 3px solid #24292f;
     width: fit-content;
     margin: 10px 0 30px 0;
@@ -136,7 +148,7 @@ body>* {
 }
 
 .about-me-text {
-    font-size: 2.5vh;
+    font-size: calc(15px + 0.390625vw);
 }
 
 .section-text {
@@ -174,7 +186,8 @@ body>* {
 }
 
 .skills-title {
-    font-size: 3vh;
+    font-size: calc(15px + 0.390625vw);
+    ;
     border-left: 4px solid var(--p-margin-color);
     padding: 0 0 0 5px;
 }
@@ -193,7 +206,7 @@ body>* {
 }
 
 .certificate-link {
-    font-size: 2.5vh;
+    font-size: calc(15px + 0.390625vw);
     padding: 2px;
     color: black;
 }
@@ -249,7 +262,7 @@ body>* {
     background-color: white;
     width: 90%;
     border-radius: 10px;
-    font-size: 2.5vh;
+    font-size: calc(15px + 0.390625vw);
     padding: 10px;
     max-width: 800px;
 }
@@ -258,7 +271,7 @@ input[type="text"],
 input[type="email"],
 textarea {
     border: 1px solid black;
-    font-size: 2.5vh;
+    font-size: calc(15px + 0.390625vw);
     border-radius: 5px;
     padding: 5px;
 }
@@ -288,7 +301,7 @@ input[type="submit"] {
     text-align: center;
     padding: 10px;
     background-color: var(--main-bg-color);
-    font-size: 2.5vh;
+    font-size: calc(15px + 0.390625vw);
     align-self: center;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -308,10 +321,17 @@ input[type="submit"]:active {
 
 @media screen and (max-width: 1000px) {
 
-    #header,
-    #main {
+    #header {
         width: 90%;
         margin: 0 10px 0 10px;
+    }
+
+    #main {
+        margin: 6.1rem 10px 0 10px;
+    }
+
+    .burger-container {
+        align-self: center;
     }
 
     #header {
@@ -329,9 +349,13 @@ input[type="submit"]:active {
     .section-text {
         min-width: 300px;
     }
+
+    p {
+        font-size: calc(15px + 0.390625vw);
+    }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     #about-me-div {
         flex-direction: column;
         align-items: center;
@@ -339,29 +363,35 @@ input[type="submit"]:active {
     }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
 
-    #main,
-    #header {
+    #main {
         width: 95%;
-        margin: 0 7px 0px 7px;
+        margin: 3rem 7px 0px 7px;
     }
 
     #header {
+        width: 95%;
+        margin: 0 7px 0px 7px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
+        height: fit-content;
+        align-items: center;
+        gap: 0;
     }
 
     .burger-container {
         display: flex;
         justify-content: space-between;
         width: 100%;
+        align-items: center;
     }
 
     #nav-bar {
         display: flex;
         flex-direction: column;
+        margin: 0;
         width: 100%;
     }
 
@@ -372,12 +402,12 @@ input[type="submit"]:active {
         width: 100%;
     }
 
-    #nav-ul a{
+    #nav-ul a {
         border-radius: 0;
         width: 100%;
     }
 
-    #nav-ul li{
+    #nav-ul li {
         display: block;
     }
 
@@ -429,6 +459,6 @@ input[type="submit"]:active {
     }
 
     .menu-btn.open .menu-btn__burger::after {
-        transform:rotate(-45deg);
+        transform: rotate(-45deg);
     }
 }

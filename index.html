@@ -148,6 +148,20 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script>
+        function semester() {
+            var startDate = new Date(2022, 0, 0);
+            var endDate = new Date();
+            var months = Math.ceil((
+                endDate.getMonth() -
+                startDate.getMonth() +
+                12 * (endDate.getFullYear() - startDate.getFullYear())
+            ) / 6);
+            var list = ['primeiro', 'segundo', 'terceiro', 'quarto', 'quinto', 'sexto', 'sétimo', 'oitavo']
+            return list[months - 1];
+        }
+
+        document.getElementById("college-semester").innerHTML = semester();
+
         function clickable() {
             if (menuOpen) {
                 menuBtn.classList.remove('open');
@@ -177,8 +191,9 @@
         let menuOpen = false;
         menuBtn.addEventListener('click', clickable);
         for (let i = 0; i < listOptions.length; i++) {
-            listOptions[i].addEventListener("click", () => { closesMenu(); clickable() });
+            listOptions[i].addEventListener("click", () => { if (screen.width < 700) { closesMenu(); clickable(); } });
         }
+
     </script>
 </body>
 
