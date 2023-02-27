@@ -8,7 +8,7 @@ function CardContainer() {
     return (
         <section className="card-container">
             <section className="container pt-4 pb-5" id="projetos">
-                <h2 className="section-h2">Projetos</h2>
+                <h2 className="section-h2 mb-5 mt-2">Projetos</h2>
                 <div className="row justify-content-center">
                     <ProjetoCard src={"https://github.com/matEvangelista/whatsapp-data-vis/raw/main/imgs/media.png"}
                         alt="Vizualização WhatsApp"
