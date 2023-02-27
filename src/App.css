@@ -257,6 +257,22 @@ h3 {
   background-color: #8e8ea2;
 }
 
+.curriculo {
+  text-decoration: none;
+  color: #13131F;
+  background-color: #434683;
+  padding: .8rem;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #434683;
+  transition: .2s;
+}
+
+.curriculo:hover {
+  color: white;
+  background-color: #1c1e38;
+  box-shadow: 0 0 10px #434683;
+}
+
 /*CONTATO SECTION*/
 .contato {
   background-color: #2d2d49;
