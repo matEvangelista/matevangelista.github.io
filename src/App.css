@@ -1,38 +1,334 @@
-.App {
+html {
+  font-size: calc(15px + 0.390625vw);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*UNDERLINES AND HIGHLIGHTS*/
+.title-underline {
+  border-bottom: 3px solid black;
+  width: fit-content;
+}
+
+/*OVERWRITING BOOTSTRAP'S TOGGLE BUTTON*/
+
+nav {
+  opacity: 0.98;
+}
+
+.navbar-toggler {
+  width: 50px;
+  height: 40px;
+  transition: .5s ease-in-out;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  border: 0;
+  box-shadow: none;
+}
+
+.toggler-icon {
+  display: block;
+  height: 3px;
+  width: 100%;
+  border-radius: 2px;
+  left: 0;
+  transition: 0.3s ease-in-out;
+  position: relative;
+  background-color: white;
+}
+
+
+.navbar-toggler.collapsed .top-line {
+  transform: rotate(0deg);
+  transform: translateY(-7px);
+}
+
+.navbar-toggler.collapsed .bottom-line {
+  display: block;
+  transform: rotate(0deg);
+  transform: translateY(9px);
+}
+
+.navbar-toggler.collapsed .middle-line {
+  margin: 0;
+  display: block;
+}
+
+/*clicked burger*/
+.navbar-toggler .top-line {
+  transform: rotate(-45deg);
+  margin-bottom: 0;
+}
+
+.navbar-toggler .middle-line {
+  display: none;
+}
+
+.navbar-toggler .bottom-line {
+  transform: rotate(45deg);
+  margin-top: -2.2px;
+}
+
+.nav-item {
+  width: 100%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.nav-link:hover,
+.active {
+  background-color: rgb(105, 105, 105);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/*APRESENTAÇÃO SECTION*/
+.apresentacao {
+  height: 85vh;
+  background-size: cover;
+  background-position: 50% 30%;
+  background-attachment: fixed;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)), url('./assets/background-hero.jpg');
+  display: flex;
+  align-items: center;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*PROJETOS*/
+.section-h2 {
+  color: white;
+  border-bottom: 3px solid white;
+  width: fit-content;
+  padding-bottom: .5rem;
+  margin: 0;
+}
+
+.card-container {
+  background-color: #1b1b2c;
+}
+
+/*cards*/
+.card-projeto {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: .3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  aspect-ratio: 7 /4;
+}
+
+.links-card {
+  display: none;
+  align-self: center;
+  z-index: 999;
+  width: 100%;
+}
+
+.links-card a {
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  background-color: #2f325f;
+  font-size: .8rem;
+  padding: .2rem 0 .2rem 0;
+}
+
+.card-projeto img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  filter: brightness(.3);
+  transition: .3s ease-in-out
+}
+
+.icons-container {
+  font-size: 2.5rem;
+  position: absolute;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.card-projeto:hover {
+  transform: scale(1.1);
+}
+
+.card-projeto:hover .icons-container {
+  display: none;
+}
+
+.card-projeto:hover img {
+  filter: brightness(1);
+}
+
+.card-projeto:hover .links-card {
+  display: flex;
+  position: absolute;
+  margin-top: 45%;
+}
+
+.links-card a:hover {
+  background-color: #1c1e38;
+}
+
+.text-icons {
+  font-size: 1rem;
+}
+
+/*HABILIDADES SECTION*/
+
+.habilidades {
+  background-color: #2d2d49;
+  padding: 2rem 0 2rem 0;
+  color: white;
+}
+
+.card-habilidade {
+  background-color: #ceceee;
+  color: #212529;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 10px;
+  justify-content: space-around;
+}
+
+h3 {
+  font-size: 1.2rem;
+  padding-left: .5rem;
+  border-left: 3px solid #2d2d49;
+}
+
+.icones {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icones>img {
+  width: 3rem;
+  margin: 1rem .3rem 0 .3rem;
+}
+
+
+/*CURSOS*/
+.cursos {
+  background-color: #1B1B2C;
+  padding: 2rem 0 2rem 0;
+}
+
+.card-curso {
+  background-color: #CECEEE;
+  color: black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.andamento {
+  font-style: italic;
+  align-self: center;
+}
+
+.card-curso a {
+  text-decoration: none;
+  color: black;
+  padding: .5rem;
+  background-color: #aeaec8;
+  border-radius: 5px;
+  width: fit-content;
+  align-self: center;
+}
+
+.card-curso a:hover {
+  background-color: #8e8ea2;
+}
+
+/*CONTATO SECTION*/
+.contato {
+  background-color: #2d2d49;
+  padding: 2rem 0 2rem 0;
+}
+
+.contato a {
+  text-decoration: none;
+  font-size: 2.5rem;
+  color: #c7c7de;
+}
+
+.contato a:hover {
+  color: #8b8baa;
+}
+
+.form-floating {
+  margin-bottom: 1rem;
+  border: none;
+}
+
+.form-control {
+  background-color: #cecece;
+}
+
+.form-control:focus {
+  box-shadow: 0px 0px 20px #434683;
+  background-color: #cecece;
+}
+
+.submit-button {
+  padding: .5rem;
+  border-radius: 10px;
+  background-color: #8b8baa;
+}
+
+.submit-button:hover {
+  background-color: #4f5173;
+  box-shadow: 0px 0px 10px #434683;
+  color: rgb(205, 197, 197);
+}
+
+.submit-button:active {
+  background-color: #8b8baa;
+  color: #13131F;
+}
+
+/*SOBRE SECTION*/
+
+.sobre {
+  background-color: #212529;
+  padding: 2rem 0 2rem 0;
+  color: white;
+}
+
+#main-img {
+  border-radius: 50%;
+  transition: .3s ease-in-out;
+}
+
+#main-img:hover {
+  transform: scale(1.1);
+}
+
+
+.card a {
+  text-decoration: none;
+  padding: 0.5rem;
+  background-color: #1f1f33;
+  color: white;
+}
+
+.card a:hover {
+  background-color: #13131F
 }
