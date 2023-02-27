@@ -5,7 +5,6 @@ import Contato from './components/Contato';
 import Cursos from './components/Cursos';
 import Habilidades from './components/Habilidades';
 import Navbar from './components/Navbar';
-import ProjetoCard from './components/ProjetoCard';
 import Sobre from './components/Sobre';
 
 
