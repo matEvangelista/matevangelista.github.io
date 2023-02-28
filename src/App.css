@@ -260,7 +260,7 @@ h3 {
 .curriculo {
   text-decoration: none;
   color: #13131F;
-  background-color: #434683;
+  background-color: #5e63b9;
   padding: .8rem;
   border-radius: 10px;
   box-shadow: 0 0 5px #434683;
@@ -307,6 +307,7 @@ h3 {
   padding: .5rem;
   border-radius: 10px;
   background-color: #8b8baa;
+  transition: .2s;
 }
 
 .submit-button:hover {

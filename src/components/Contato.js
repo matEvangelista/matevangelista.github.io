@@ -37,6 +37,9 @@ function Contato() {
                         <a href="https://www.linkedin.com/in/mateus-e-alcantara/" target="_blank" rel="noreferrer">
                             <i class="devicon-linkedin-plain"></i>
                         </a>
+                        <a href="https://medium.com/@mateus.evangelista.alcantara" target="_blank" rel="noreferrer">
+                            <i className="fa-brands fa-medium"></i>
+                        </a>
                     </div>
                 </div>
             </section>
