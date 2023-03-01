@@ -6,7 +6,7 @@ function Apresentacao() {
                 <div className="row">
                     <p className="col-10 ms-auto me-auto text-center d-flex flex-column">
                         <span>Olá. Meu nome é Mateus e busco trabalho como desenvolvedor júnior ou estagiário.</span>
-                        <span>Posso trabalhar com front-end, Python ou Java.</span>
+                        <span>Posso trabalhar com front-end, Python e Java.</span>
                         <span>Aqui, você pode ver meus projetos e entrar em contato comigo.</span>
                     </p>
                 </div>
