@@ -14,7 +14,7 @@ function Sobre() {
             <section className="container">
                 <h2 className="section-h2">Sobre mim</h2>
                 <figure className="row justify-content-around align-items-center mt-5">
-                    <img src={foto} id="main-img" alt="Mateu Evangelista" className="col-md-3 col-10" />
+                    <img src={foto} id="main-img" alt="Mateu Evangelista" className="col-md-6 col-10" />
                     <figcaption className="col-md-6 mt-3 mt-md-0 col-10">
                         <p class="about-me-text">Estou no {semester()} período do bacharelado em
                             Sistemas
