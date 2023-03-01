@@ -42,6 +42,10 @@ function Contato() {
                         </a>
                     </div>
                 </div>
+                <h3 className="text-white mt-5 text-center d-flex flex-column">
+                    Se preferir, você pode entrar em contato diretamente pelo e-mail:
+                    <span>mateus.evangelista.alcantara@gmail.com</span>
+                </h3>
             </section>
         </section>
     )
