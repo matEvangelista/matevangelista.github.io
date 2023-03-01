@@ -4,9 +4,9 @@ function Apresentacao() {
             <div className="container justify-items-center">
                 <h1 className="text-center w-100">Mateus Evangelista</h1>
                 <div className="row">
-                    <p className="col-md-8 ms-auto me-auto text-center d-flex flex-column">
-                        <span>Seja bem-vindo(a). Meu nome é Mateus e busco trabalho como estagiário ou desenvolvedor júnior.</span>
-                        <span>Busco atuar no front-end ou no back-end.</span>
+                    <p className="col-10 ms-auto me-auto text-center d-flex flex-column">
+                        <span>Olá. Meu nome é Mateus e busco trabalho como desenvolvedor júnior ou estagiário.</span>
+                        <span>Quero trabalhar com front-end, Python ou Java.</span>
                         <span>Aqui, você pode ver meus projetos e entrar em contato comigo.</span>
                     </p>
                 </div>
