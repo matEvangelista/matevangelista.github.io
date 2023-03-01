@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.160a4610.css",
-    "main.js": "/static/js/main.20086f68.js",
+    "main.css": "/static/css/main.2ad4d1a2.css",
+    "main.js": "/static/js/main.b9b681a3.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/background-hero.jpg": "/static/media/background-hero.de816d054cc98d883a30.jpg",
     "static/media/StarWars.png": "/static/media/StarWars.aba18448aa8046628f24.png",
@@ -10,12 +10,12 @@
     "static/media/UrbanDict.png": "/static/media/UrbanDict.31d5b0977cf54d0d006d.png",
     "static/media/foto-principal.jpg": "/static/media/foto-principal.3ddfd2c0a9e9ceee6fb3.jpg",
     "index.html": "/index.html",
-    "main.160a4610.css.map": "/static/css/main.160a4610.css.map",
-    "main.20086f68.js.map": "/static/js/main.20086f68.js.map",
+    "main.2ad4d1a2.css.map": "/static/css/main.2ad4d1a2.css.map",
+    "main.b9b681a3.js.map": "/static/js/main.b9b681a3.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.160a4610.css",
-    "static/js/main.20086f68.js"
+    "static/css/main.2ad4d1a2.css",
+    "static/js/main.b9b681a3.js"
   ]
 }
