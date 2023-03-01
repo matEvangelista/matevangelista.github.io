@@ -332,6 +332,7 @@ h3 {
 #main-img {
   transition: .3s ease-in-out;
   border-radius: 50%;
+  max-width: 350px;
 }
 
 #main-img:hover {
