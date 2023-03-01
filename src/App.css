@@ -321,6 +321,11 @@ h3 {
   color: #13131F;
 }
 
+.email-container {
+  font-size: .8rem;
+  color: rgb(204, 204, 204);
+}
+
 /*SOBRE SECTION*/
 
 .sobre {

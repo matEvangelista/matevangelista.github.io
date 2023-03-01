@@ -42,10 +42,10 @@ function Contato() {
                         </a>
                     </div>
                 </div>
-                <h3 className="text-white mt-5 text-center d-flex flex-column">
-                    Se preferir, você pode entrar em contato diretamente pelo e-mail:
-                    <span>mateus.evangelista.alcantara@gmail.com</span>
-                </h3>
+                <div className="mt-5 row text-center email-container">
+                    <span className="col-12">Se preferir, você pode entrar em contato diretamente pelo e-mail:</span>
+                    <span className="col-12">mateus.evangelista.alcantara@gmail.com</span>
+                </div>
             </section>
         </section>
     )
