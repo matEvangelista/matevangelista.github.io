@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.2ad4d1a2.css",
-    "main.js": "/static/js/main.b9b681a3.js",
+    "main.js": "/static/js/main.45385579.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/background-hero.jpg": "/static/media/background-hero.de816d054cc98d883a30.jpg",
     "static/media/StarWars.png": "/static/media/StarWars.aba18448aa8046628f24.png",
     "static/media/Portflow.png": "/static/media/Portflow.5f7c81336a7beb60ba98.png",
     "static/media/crespos.png": "/static/media/crespos.eaacea63dcbbb14b8dd0.png",
+    "static/media/Currículo - Mateus Evangelista de Alcântara.pdf": "/static/media/Currículo - Mateus Evangelista de Alcântara.a6f38590debd4e25fff4.pdf",
     "static/media/UrbanDict.png": "/static/media/UrbanDict.31d5b0977cf54d0d006d.png",
     "static/media/foto-principal.jpg": "/static/media/foto-principal.3ddfd2c0a9e9ceee6fb3.jpg",
     "index.html": "/index.html",
     "main.2ad4d1a2.css.map": "/static/css/main.2ad4d1a2.css.map",
-    "main.b9b681a3.js.map": "/static/js/main.b9b681a3.js.map",
+    "main.45385579.js.map": "/static/js/main.45385579.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2ad4d1a2.css",
-    "static/js/main.b9b681a3.js"
+    "static/js/main.45385579.js"
   ]
 }
