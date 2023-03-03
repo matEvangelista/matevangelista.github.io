@@ -1,4 +1,5 @@
 import Curso from "./Curso"
+import Curriculo from "../assets/Currículo - Mateus Evangelista de Alcântara.pdf"
 
 function Cursos() {
     return (
@@ -13,7 +14,7 @@ function Cursos() {
                 </div>
                 <div className="row justify-content-center mt-5 mb-5">
                     <div className="col-6 text-center">
-                        <a className="curriculo" href="https://drive.google.com/file/d/1sZ7c9fBIhuaEY7kTu6nQow7TEwNuDti-/view"
+                        <a className="curriculo" href={Curriculo}
                             target="_blank" rel="noreferrer">Currículo</a>
                     </div>
                 </div>
