@@ -1,5 +1,4 @@
 import Curso from "./Curso"
-import Curriculo from "../assets/Currículo - Mateus Evangelista de Alcântara.pdf"
 
 function Cursos() {
     return (
@@ -11,12 +10,6 @@ function Cursos() {
                     <Curso name={"Git e GitHub - Hora de Codar"} url={"https://www.udemy.com/certificate/UC-a023ff50-ed8b-496d-b78c-928c30e2f7dc/"} />
                     <Curso name={"Microsoft Excel - Básico ao avançado"} url={"https://www.udemy.com/certificate/UC-IWP6ZG1C/"} />
                     <Curso name={"Python - Geek University"} />
-                </div>
-                <div className="row justify-content-center mt-5 mb-5">
-                    <div className="col-6 text-center">
-                        <a className="curriculo" href={Curriculo}
-                            target="_blank" rel="noreferrer">Currículo</a>
-                    </div>
                 </div>
             </section>
         </section>

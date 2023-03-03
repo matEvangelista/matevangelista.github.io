@@ -1,3 +1,5 @@
+import Curriculo from "../assets/Currículo - Mateus Evangelista de Alcântara.pdf"
+
 function Apresentacao() {
     return (
         <section className="apresentacao" id="parallax">
@@ -9,6 +11,12 @@ function Apresentacao() {
                         <span>Posso trabalhar com front-end, Python e Java.</span>
                         <span>Aqui, você pode ver meus projetos e entrar em contato comigo.</span>
                     </p>
+                </div>
+                <div className="row justify-content-center mt-3">
+                    <div className="col-6 text-center">
+                        <a className="curriculo" href={Curriculo}
+                            target="_blank" rel="noreferrer">Currículo</a>
+                    </div>
                 </div>
             </div>
         </section>
