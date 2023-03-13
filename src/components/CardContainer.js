@@ -27,6 +27,28 @@ function CardContainer() {
                         icons={[<i className="devicon-python-plain-wordmark"></i>]}
                         url="https://github.com/matEvangelista/wordcloud_debate" />
 
+
+                    <ProjetoCard
+                        src={StarWars} alt="Star Wars - Battlefront"
+                        icons={[
+                            <i className="devicon-html5-plain-wordmark"></i>,
+                            <i className="devicon-css3-plain-wordmark"></i>
+                        ]}
+                        url="https://github.com/matEvangelista/vnw-desafio-star-wars"
+                        url_hospedado={"https://matevangelista.github.io/vnw-desafio-star-wars/"}
+                    />
+
+                    <ProjetoCard
+                        src={Crespos} alt="Tô de Cacho"
+                        icons={[
+                            <i className="devicon-html5-plain-wordmark"></i>,
+                            <i className="devicon-css3-plain-wordmark"></i>,
+                            <i className="devicon-javascript-plain"></i>
+                        ]}
+                        url="https://github.com/matEvangelista/vnw-crespos"
+                        url_hospedado="https://matevangelista.github.io/vnw-crespos/"
+                    />
+
                     <ProjetoCard
                         src={Portflow} alt="Portflow"
                         icons={[
@@ -36,28 +58,6 @@ function CardContainer() {
                         ]}
                         url="https://github.com/matEvangelista/vnw-portflow"
                         url_hospedado="https://matevangelista.github.io/vnw-portflow/"
-                    />
-
-                    <ProjetoCard
-                        src={Crespos} alt="Tô de Cacho"
-                        aboutText="Desafio do primeiro módulo do Vai na Web - Intermediário"
-                        tech={["HTML", "CSS"]} icons={[
-                            <i className="devicon-html5-plain-wordmark"></i>,
-                            <i className="devicon-css3-plain-wordmark"></i>
-                        ]}
-                        url="https://github.com/matEvangelista/vnw-crespos"
-                        url_hospedado="https://matevangelista.github.io/vnw-crespos/"
-                    />
-
-                    <ProjetoCard
-                        src={StarWars} alt="Star Wars - Battlefront"
-                        aboutText="Desafio do primeiro módulo do Vai na Web - Avançado"
-                        tech={["HTML", "CSS"]} icons={[
-                            <i className="devicon-html5-plain-wordmark"></i>,
-                            <i className="devicon-css3-plain-wordmark"></i>
-                        ]}
-                        url="https://github.com/matEvangelista/vnw-desafio-star-wars"
-                        url_hospedado={"https://matevangelista.github.io/vnw-desafio-star-wars/"}
                     />
                 </div>
             </section>
