@@ -1,0 +1,61 @@
+{
+    "projects": [
+        {
+            "alt": "Vizualição WhatsApp",
+            "icons": [
+                "python",
+                "pandas",
+                "jupyter"
+            ],
+            "src": "https://github.com/matEvangelista/whatsapp-data-vis/raw/main/imgs/media.png",
+            "url": "https://github.com/matEvangelista/whatsapp-data-vis",
+            "url_hospedado": null
+        },
+        {
+            "alt": "Web Scraping Urban Dictionary",
+            "icons": ["python"],
+            "src": "/images/UrbanDict.png",
+            "url": "https://github.com/matEvangelista/Urban-Dictionary-Scraper",
+            "url_hospedado": null
+        },
+        {
+            "alt": "Word cloud debate Band",
+            "icons": ["python"],
+            "src": "https://github.com/matEvangelista/wordcloud_debate/raw/master/wordcloud%20simples/ciro.png",
+            "url": "https://github.com/matEvangelista/wordcloud_debate",
+            "url_hospedado": null
+        },
+        {
+            "alt": "Star Wars - Battlefront",
+            "icons": [
+                "html5",
+                "css3"
+            ],
+            "src": "/images/StarWars.png",
+            "url": "https://github.com/matEvangelista/vnw-desafio-star-wars",
+            "url_hospedado": "https://matevangelista.github.io/vnw-desafio-star-wars/"
+        },
+        {
+            "alt": "Tô de cacho",
+            "icons": [
+                "html5",
+                "css3",
+                "javascript"
+            ],
+            "src": "/images/crespos.png",
+            "url": "https://github.com/matEvangelista/vnw-crespos",
+            "url_hospedado": "https://matevangelista.github.io/vnw-crespos/"
+        },
+        {
+            "alt": "Portflow",
+            "icons": [
+                "html5",
+                "css3",
+                "bootstrap"
+            ],
+            "src": "/images/Portflow.png",
+            "url": "https://github.com/matEvangelista/vnw-portflow",
+            "url_hospedado": "https://matevangelista.github.io/vnw-portflow/"
+        }
+    ]
+}
