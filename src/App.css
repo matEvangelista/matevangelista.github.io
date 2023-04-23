@@ -35,47 +35,52 @@ nav {
   box-shadow: none;
 }
 
+button.navbar-toggler {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 1.5rem;
+  width: 2rem;
+  transition: .5s;
+}
+
+button.collapsed .top-line {
+  transform: rotate(0);
+}
+
+button.collapsed .bottom-line {
+  transform: rotate(0);
+}
+
+button.collapsed .middle-line {
+  transform: translateX(0);
+  opacity: 1;
+}
+
 .toggler-icon {
-  display: block;
-  height: 3px;
+  height: 10%;
   width: 100%;
   border-radius: 2px;
-  left: 0;
   transition: 0.3s ease-in-out;
   position: relative;
   background-color: white;
 }
 
-
-.navbar-toggler.collapsed .top-line {
-  transform: rotate(0deg);
-  transform: translateY(-7px);
-}
-
-.navbar-toggler.collapsed .bottom-line {
-  display: block;
-  transform: rotate(0deg);
-  transform: translateY(9px);
-}
-
-.navbar-toggler.collapsed .middle-line {
-  margin: 0;
-  display: block;
-}
-
 /*clicked burger*/
 .navbar-toggler .top-line {
-  transform: rotate(-45deg);
-  margin-bottom: 0;
+  transform: rotate(45deg);
+  transform-origin: top left;
 }
 
 .navbar-toggler .middle-line {
-  display: none;
+  transform: translateX(-100%);
+  opacity: 0;
 }
 
 .navbar-toggler .bottom-line {
-  transform: rotate(45deg);
-  margin-top: -2.2px;
+  transform: rotate(-45deg);
+  transform-origin: bottom left;
 }
 
 .nav-item {
