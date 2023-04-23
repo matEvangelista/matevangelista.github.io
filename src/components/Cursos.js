@@ -7,7 +7,7 @@ function Cursos() {
 
     function returnsCoursesComponent(projects) {
         return (
-            <Curso name={projects.name} url={projects.url}/>
+            <Curso name={projects.name} url={projects.url} key={projects.name}/>
         );
     }
 

@@ -12,29 +12,29 @@ function Navbar() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto align-items-center">
-                        <li className="nav-item">
+                        <li className="nav-item" key="projetos">
                             <a className="nav-link" href="#projetos">Projetos</a>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item" key="Habilidades">
                             <a className="nav-link" href="#habilidades">Habilidades</a>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item" key="Cursos">
                             <a className="nav-link" href="#cursos">Cursos</a>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item" key="Contato">
                             <a className="nav-link" href="#contato">Contato</a>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item" key="Sobre">
                             <a className="nav-link" href="#sobre">Sobre</a>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item" key="LinkedIn">
                             <a className="nav-link" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/mateus-e-alcantara/">
-                                <i class="devicon-linkedin-plain"></i>
+                                <i className="devicon-linkedin-plain"></i>
                             </a>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item" key="GitHub">
                             <a className="nav-link" target="_blank" rel="noreferrer" href="https://github.com/matEvangelista">
-                                <i class="devicon-github-plain"></i>
+                                <i className="devicon-github-plain"></i>
                             </a>
                         </li>
                     </ul>

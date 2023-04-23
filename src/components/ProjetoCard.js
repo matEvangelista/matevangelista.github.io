@@ -9,7 +9,7 @@ function ProjetoCard({ src, alt, icons, url, url_hospedado, about }) {
             <div className="icons-container">
                 <div className="icons">
                     {icons.map((x) => (
-                        <Icons tech={x}/>
+                        <Icons tech={x} key={x}/>
                     ))}
                 </div>
                 <span className="text-icons">{alt}</span>

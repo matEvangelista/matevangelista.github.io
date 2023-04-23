@@ -7,6 +7,7 @@ function CardContainer() {
     function returnsProjectComponent(projects) {
         return (
             <ProjetoCard
+                key={projects.alt}
                 alt={projects.alt}
                 icons={projects.icons}
                 src={projects.src}

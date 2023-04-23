@@ -7,21 +7,21 @@ function Contato() {
                     action="https://formsubmit.io/send/mateus.evangelista.alcantara@gmail.com" method="POST">
                     <div className="col-10 col-md-8">
                         <div className="form-floating">
-                            <input type="text" class="form-control" id="name" name="name" placeholder="Nome" required />
-                            <label for="floatingInput">Nome</label>
+                            <input type="text" className="form-control" id="name" name="name" placeholder="Nome" required />
+                            <label htmlFor="floatingInput">Nome</label>
                         </div>
                     </div>
                     <div className="col-10 col-md-8">
-                        <div class="form-floating">
-                            <input type="email" class="form-control" id="name" name="email" placeholder="name@example.com" required />
-                            <label for="floatingInput">Endereço de email</label>
+                        <div className="form-floating">
+                            <input type="email" className="form-control" id="name" name="email" placeholder="name@example.com" required />
+                            <label htmlFor="floatingInput">Endereço de email</label>
                         </div>
                     </div>
                     <div className="col-10 col-md-8">
-                        <div class="form-floating">
-                            <textarea rows='7' name="comment" class="form-control h-100" placeholder="Mensagem"
+                        <div className="form-floating">
+                            <textarea rows='7' name="comment" className="form-control h-100" placeholder="Mensagem"
                                 id="comment" required></textarea>
-                            <label for="floatingTextarea">Mensagem</label>
+                            <label htmlFor="floatingTextarea">Mensagem</label>
                         </div>
                     </div>
                     <div className="row justify-content-center">
@@ -32,10 +32,10 @@ function Contato() {
                 <div className="row mt-3">
                     <div className="col-10 col-12 d-flex justify-content-around">
                         <a href="https://github.com/matEvangelista" target="_blank" rel="noreferrer">
-                            <i class="devicon-github-original"></i>
+                            <i className="devicon-github-original"></i>
                         </a>
                         <a href="https://www.linkedin.com/in/mateus-e-alcantara/" target="_blank" rel="noreferrer">
-                            <i class="devicon-linkedin-plain"></i>
+                            <i className="devicon-linkedin-plain"></i>
                         </a>
                         <a href="https://medium.com/@mateus.evangelista.alcantara" target="_blank" rel="noreferrer">
                             <i className="fa-brands fa-medium"></i>
