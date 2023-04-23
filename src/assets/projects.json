@@ -2,78 +2,67 @@
     "projects": [
         {
             "alt": "Vizualição WhatsApp",
-            "icons": [
-                "python",
-                "pandas",
-                "jupyter"
-            ],
+            "icons": ["python", "pandas", "jupyter"],
             "src": "https://github.com/matEvangelista/whatsapp-data-vis/raw/main/imgs/media.png",
             "url": "https://github.com/matEvangelista/whatsapp-data-vis",
-            "url_hospedado": null
+            "url_hospedado": null,
+            "about": "Vizualiação de dados de uma conversa de WhatsApp com Python. Possui histogramas, mapas de calor, word clouds e bar plots."
         },
         {
             "alt": "Web Scraping Urban Dictionary",
             "icons": ["python"],
             "src": "/images/UrbanDict.png",
             "url": "https://github.com/matEvangelista/Urban-Dictionary-Scraper",
-            "url_hospedado": null
+            "url_hospedado": null,
+            "about":"Web scraping de todas as definições e exemplos de um termo no Urban Dictionary"
         },
         {
             "alt": "Word cloud debate Band",
             "icons": ["python"],
             "src": "https://github.com/matEvangelista/wordcloud_debate/raw/master/wordcloud%20simples/ciro.png",
             "url": "https://github.com/matEvangelista/wordcloud_debate",
-            "url_hospedado": null
+            "url_hospedado": null,
+            "about": "Word cloud gerado com o debate dos candidatos à presidência da república em 2022 na Band."
         },
         {
             "alt": "Rick and Morty Characters",
-            "icons": [
-                "react"
-            ],
+            "icons": ["react"],
             "src": "/images/rick-and-morty.png",
             "url": "https://github.com/matEvangelista/rick-and-morty",
-            "url_hospedado": "https://matevangelista.github.io/rick-and-morty/"
+            "url_hospedado": "https://matevangelista.github.io/rick-and-morty/",
+            "about":" Página feita com React, styled-components e com dados da The Rick and Morty API"
         },
         {
             "alt": "Star Wars - Battlefront",
-            "icons": [
-                "html5",
-                "css3"
-            ],
+            "icons": ["html5", "css3"],
             "src": "/images/StarWars.png",
             "url": "https://github.com/matEvangelista/vnw-desafio-star-wars",
-            "url_hospedado": "https://matevangelista.github.io/vnw-desafio-star-wars/"
+            "url_hospedado": "https://matevangelista.github.io/vnw-desafio-star-wars/",
+            "about": "Landing page para um jogo que não existe feita apenas com HTML e CSS"
         },
         {
             "alt": "Tô de Cacho",
-            "icons": [
-                "html5",
-                "css3",
-                "javascript"
-            ],
+            "icons": ["html5", "css3", "javascript"],
             "src": "/images/crespos.png",
             "url": "https://github.com/matEvangelista/vnw-crespos",
-            "url_hospedado": "https://matevangelista.github.io/vnw-crespos/"
+            "url_hospedado": "https://matevangelista.github.io/vnw-crespos/",
+            "about": "Página sobre cuidado com cabelos crespos. Feita com HTML, CSS e Javascript"
         },
         {
             "alt": "Pepsi Landing Page",
-            "icons": [
-                "react"
-            ],
+            "icons": ["react"],
             "src": "/images/pepsi.png",
             "url": "https://github.com/matEvangelista/pepsi-landing-react",
-            "url_hospedado": "https://matevangelista.github.io/pepsi-landing-react"
+            "url_hospedado": "https://matevangelista.github.io/pepsi-landing-react",
+            "about": "Landing page feita com React e styled-components"
         },
         {
             "alt": "Portflow",
-            "icons": [
-                "html5",
-                "css3",
-                "bootstrap"
-            ],
+            "icons": ["html5", "css3", "bootstrap"],
             "src": "/images/Portflow.png",
             "url": "https://github.com/matEvangelista/vnw-portflow",
-            "url_hospedado": "https://matevangelista.github.io/vnw-portflow/"
+            "url_hospedado": "https://matevangelista.github.io/vnw-portflow/",
+            "about": "Página feita com HTML e estilizada quase inteiramente com Bootstrap"
         }
     ]
 }

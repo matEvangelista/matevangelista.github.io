@@ -12,6 +12,7 @@ function CardContainer() {
                 src={projects.src}
                 url={projects.url}
                 url_hospedado={projects.url_hospedado}
+                about={projects.about}
             />
         );
     }

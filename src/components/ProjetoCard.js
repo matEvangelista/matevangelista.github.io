@@ -1,6 +1,6 @@
 import Icons from "./Icons";
 
-function ProjetoCard({ src, alt, icons, url, url_hospedado }) {
+function ProjetoCard({ src, alt, icons, url, url_hospedado, about }) {
 
 
     return (
@@ -44,6 +44,9 @@ function ProjetoCard({ src, alt, icons, url, url_hospedado }) {
                         Projeto
                     </a>
                 )}
+            </div>
+            <div className="about-text">
+                <p>{about}</p>
             </div>
         </div>
     );
