@@ -26,6 +26,15 @@
             "url_hospedado": null
         },
         {
+            "alt": "Rick and Morty Characters",
+            "icons": [
+                "react"
+            ],
+            "src": "/images/rick-and-morty.png",
+            "url": "https://github.com/matEvangelista/rick-and-morty",
+            "url_hospedado": "https://matevangelista.github.io/rick-and-morty/"
+        },
+        {
             "alt": "Star Wars - Battlefront",
             "icons": [
                 "html5",
@@ -36,7 +45,7 @@
             "url_hospedado": "https://matevangelista.github.io/vnw-desafio-star-wars/"
         },
         {
-            "alt": "Tô de cacho",
+            "alt": "Tô de Cacho",
             "icons": [
                 "html5",
                 "css3",
@@ -45,6 +54,15 @@
             "src": "/images/crespos.png",
             "url": "https://github.com/matEvangelista/vnw-crespos",
             "url_hospedado": "https://matevangelista.github.io/vnw-crespos/"
+        },
+        {
+            "alt": "Pepsi Landing Page",
+            "icons": [
+                "react"
+            ],
+            "src": "/images/pepsi.png",
+            "url": "https://github.com/matEvangelista/pepsi-landing-react",
+            "url_hospedado": "https://matevangelista.github.io/pepsi-landing-react"
         },
         {
             "alt": "Portflow",
