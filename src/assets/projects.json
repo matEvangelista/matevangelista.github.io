@@ -64,5 +64,23 @@
             "url_hospedado": "https://matevangelista.github.io/vnw-portflow/",
             "about": "Página feita com HTML e estilizada quase inteiramente com Bootstrap"
         }
+    ],
+    "courses": [
+        {
+            "name": "Carreira Front-End - Vai na Web.",
+            "url": null
+        },
+        {
+            "name": "Git e Github - Hora de Codar",
+            "url": "https://www.udemy.com/certificate/UC-a023ff50-ed8b-496d-b78c-928c30e2f7dc/"
+        },
+        {
+            "name": "Microsoft Excel - Básico ao avançado",
+            "url": "https://www.udemy.com/certificate/UC-IWP6ZG1C/"
+        },
+        {
+            "name": "Python - Geek University",
+            "url": null
+        }
     ]
 }
