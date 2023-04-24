@@ -170,9 +170,11 @@ button.collapsed .middle-line {
 }
 
 .about-text p {
+  width: 90%;
   font-size: 1rem;
   text-align: center;
   height: fit-content;
+  user-select: none;
 }
 
 .icons-container {
@@ -291,13 +293,13 @@ h3 {
 }
 
 .card-curso a:hover {
-  background-color: #8e8ea2;
+  background-color: #7c7cb4;
 }
 
 .curriculo {
   text-decoration: none;
   color: #13131F;
-  background-color: #5e63b9;
+  background-color: #858bd6;
   padding: .8rem;
   border-radius: 10px;
   box-shadow: 0 0 5px #434683;

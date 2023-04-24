@@ -6,7 +6,7 @@
             "src": "https://github.com/matEvangelista/whatsapp-data-vis/raw/main/imgs/media.png",
             "url": "https://github.com/matEvangelista/whatsapp-data-vis",
             "url_hospedado": null,
-            "about": "Vizualiação de dados de uma conversa de WhatsApp com Python. Possui histogramas, mapas de calor, word clouds e bar plots."
+            "about": "Vizualiação de dados de uma conversa de WhatsApp com Python, com diversos tipos de gráfico."
         },
         {
             "alt": "Web Scraping Urban Dictionary",
