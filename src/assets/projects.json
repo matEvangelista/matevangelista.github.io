@@ -25,6 +25,14 @@
             "about": "Word cloud gerado com o debate dos candidatos à presidência da república em 2022 na Band."
         },
         {
+            "alt": "TeteuFlix",
+            "icons": ["react"],
+            "src": "/images/teteu-flix.png",
+            "url": "https://github.com/matEvangelista/teteu-flix",
+            "url_hospedado": "https://teteu-flix.vercel.app/",
+            "about":" Página feita com React, styled-components e com dados da The Rick and Morty API"
+        },
+        {
             "alt": "Rick and Morty Characters",
             "icons": ["react"],
             "src": "/images/rick-and-morty.png",
@@ -41,28 +49,12 @@
             "about": "Landing page para um jogo que não existe feita apenas com HTML e CSS"
         },
         {
-            "alt": "Tô de Cacho",
-            "icons": ["html5", "css3", "javascript"],
-            "src": "/images/crespos.png",
-            "url": "https://github.com/matEvangelista/vnw-crespos",
-            "url_hospedado": "https://matevangelista.github.io/vnw-crespos/",
-            "about": "Página sobre cuidado com cabelos crespos. Feita com HTML, CSS e Javascript"
-        },
-        {
             "alt": "Pepsi Landing Page",
             "icons": ["react"],
             "src": "/images/pepsi.png",
             "url": "https://github.com/matEvangelista/pepsi-landing-react",
             "url_hospedado": "https://matevangelista.github.io/pepsi-landing-react",
             "about": "Landing page feita com React e styled-components"
-        },
-        {
-            "alt": "Portflow",
-            "icons": ["html5", "css3", "bootstrap"],
-            "src": "/images/Portflow.png",
-            "url": "https://github.com/matEvangelista/vnw-portflow",
-            "url_hospedado": "https://matevangelista.github.io/vnw-portflow/",
-            "about": "Página feita com HTML e estilizada quase inteiramente com Bootstrap"
         }
     ],
     "courses": [
