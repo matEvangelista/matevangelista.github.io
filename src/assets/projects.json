@@ -25,6 +25,14 @@
             "about": "Word cloud gerado com o debate dos candidatos à presidência da república em 2022 na Band."
         },
         {
+            "alt": "Grafos com WhatsApp",
+            "icons": ["python"],
+            "src": "/images/grafos.png",
+            "url": "https://github.com/matEvangelista/grafos_whatsapp",
+            "url_hospedado": null,
+            "about": "Grafos gerados com conversas em grupos de WhatsApp"
+        },
+        {
             "alt": "TeteuFlix",
             "icons": ["react"],
             "src": "/images/teteu-flix.png",
