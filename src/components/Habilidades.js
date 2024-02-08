@@ -30,6 +30,13 @@ function Habilidades() {
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" key="git" />,
                         ]}
                     />
+                    <HabilidadeCard
+                        name={"Banco de Dados"}
+                        icons={[
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" />,
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" />         
+                        ]}
+                    />
                 </div>
             </section>
         </section>

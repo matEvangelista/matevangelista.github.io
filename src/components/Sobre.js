@@ -17,11 +17,8 @@ function Sobre() {
                     <img src={foto} id="main-img" alt="Mateu Evangelista" className="col-md-6 col-10" />
                     <figcaption className="col-md-6 mt-3 mt-md-0 col-10">
                         <p className="about-me-text">Estou no {semester()} período do bacharelado em
-                            Sistemas
-                            de Informação da Universidade Federal do Estado do Rio de Janeiro. Tenho interesse em <span
-                                className="highlight">estatística, web scraping, web development e análise de dados.</span></p>
-                        <p className="about-me-text">Atualmente, <span className="highlight">busco um estágio ou trabalho</span> que envolva
-                            qualquer uma das áreas mencionadas. Sou curioso, diligente e tenho muita vontade de trabalhar.
+                            Sistemas de Informação da Universidade Federal do Estado do Rio de Janeiro. Tenho interesse em estatística,
+                            web scraping, web development e análise de dados.
                         </p>
                     </figcaption>
                 </figure>
