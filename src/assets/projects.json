@@ -55,24 +55,20 @@
             "url": "https://github.com/matEvangelista/vnw-desafio-star-wars",
             "url_hospedado": "https://matevangelista.github.io/vnw-desafio-star-wars/",
             "about": "Landing page para um jogo que não existe feita apenas com HTML e CSS"
-        },
-        {
-            "alt": "Pepsi Landing Page",
-            "icons": ["react"],
-            "src": "/images/pepsi.png",
-            "url": "https://github.com/matEvangelista/pepsi-landing-react",
-            "url_hospedado": "https://matevangelista.github.io/pepsi-landing-react",
-            "about": "Landing page feita com React e styled-components"
         }
     ],
     "courses": [
         {
-            "name": "Carreira Front-End - Vai na Web.",
-            "url": "/Mateus Evangelista.pdf"
-        },
-        {
             "name": "Git e Github - Hora de Codar",
             "url": "https://www.udemy.com/certificate/UC-a023ff50-ed8b-496d-b78c-928c30e2f7dc/"
+        },
+        {
+            "name": "Machine Learning Specialization - DeepLearning.AI, Stanford University",
+            "url": "https://www.coursera.org/account/accomplishments/specialization/LKWMWRC9OX9X"
+        },
+        {
+            "name": "Carreira Front-End - Vai na Web.",
+            "url": "/Mateus Evangelista.pdf"
         },
         {
             "name": "Microsoft Excel - Básico ao avançado",
