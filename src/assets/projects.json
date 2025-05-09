@@ -15,7 +15,7 @@
             "url": "https://github.com/matEvangelista/classificacao_autor_zap",
             "url_hospedado": null,
             "about": "Classificação de autoria de mensagens de WhatsApp a partir de suas mensagens."
-        }
+        },
         {
             "alt": "Web Scraping Urban Dictionary",
             "icons": ["python"],
