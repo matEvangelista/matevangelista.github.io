@@ -9,6 +9,14 @@
             "about": "Vizualização de dados de uma conversa de WhatsApp com Python, com diversos tipos de gráfico."
         },
         {
+            "alt": "Classificação de Autoria",
+            "icons": ["python", "pytorch", "scikitlearn"],
+            "src": "https://raw.githubusercontent.com/matEvangelista/classificacao_autor_zap/refs/heads/main/images/scatter.png",
+            "url": "https://github.com/matEvangelista/classificacao_autor_zap",
+            "url_hospedado": null,
+            "about": "Classificação de autoria de mensagens de WhatsApp a partir de suas mensagens."
+        }
+        {
             "alt": "Web Scraping Urban Dictionary",
             "icons": ["python"],
             "src": "/images/UrbanDict.png",
@@ -59,12 +67,12 @@
     ],
     "courses": [
         {
-            "name": "Git e Github - Hora de Codar",
-            "url": "https://www.udemy.com/certificate/UC-a023ff50-ed8b-496d-b78c-928c30e2f7dc/"
-        },
-        {
             "name": "Machine Learning Specialization - DeepLearning.AI, Stanford University",
             "url": "https://www.coursera.org/account/accomplishments/specialization/LKWMWRC9OX9X"
+        },
+        {
+            "name": "Processamento de Linguagem Natural em Português - USP",
+            "url": "https://coursera.org/share/3231bde0c1394b29024c50e6837100ac"
         },
         {
             "name": "Carreira Front-End - Vai na Web.",
@@ -73,6 +81,10 @@
         {
             "name": "Microsoft Excel - Básico ao avançado",
             "url": "https://www.udemy.com/certificate/UC-IWP6ZG1C/"
-        }
+        },
+        {
+            "name": "Git e Github - Hora de Codar",
+            "url": "https://www.udemy.com/certificate/UC-a023ff50-ed8b-496d-b78c-928c30e2f7dc/"
+        },
     ]
 }
