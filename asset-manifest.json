@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.30d68e0e.css",
-    "main.js": "/static/js/main.191e4e1b.js",
+    "main.js": "/static/js/main.17b3fabb.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/foto-principal.jpg": "/static/media/foto-principal.83a1bc08ba953104cc3f.jpg",
     "static/media/background-hero.jpg": "/static/media/background-hero.de816d054cc98d883a30.jpg",
-    "static/media/Currículo - Mateus Evangelista de Alcântara.pdf": "/static/media/Currículo - Mateus Evangelista de Alcântara.679e3760397c33ac0b85.pdf",
+    "static/media/Currículo - Mateus Evangelista de Alcântara.pdf": "/static/media/Currículo - Mateus Evangelista de Alcântara.38ba8cf167c6eaa55f51.pdf",
     "index.html": "/index.html",
     "main.30d68e0e.css.map": "/static/css/main.30d68e0e.css.map",
-    "main.191e4e1b.js.map": "/static/js/main.191e4e1b.js.map",
+    "main.17b3fabb.js.map": "/static/js/main.17b3fabb.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.30d68e0e.css",
-    "static/js/main.191e4e1b.js"
+    "static/js/main.17b3fabb.js"
   ]
 }
